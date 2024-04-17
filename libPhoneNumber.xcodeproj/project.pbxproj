@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -66,6 +66,7 @@
 		A81D6A2B1BECC44600F68F34 /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = A81D6A281BECC43A00F68F34 /* NBPhoneNumberDefines.m */; };
 		CA55ED89296F51E0005E98A1 /* TestingSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA55ED88296F51E0005E98A1 /* TestingSource.bundle */; };
 		CAA5E78D29F84B7B00550AA7 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA5E78C29F84B7B00550AA7 /* Contacts.framework */; };
+		CE18469E2BCF7AE6005BBFA0 /* NBGeneratedPhoneNumberMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18469D2BCF7AE6005BBFA0 /* NBGeneratedPhoneNumberMetaData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +184,7 @@
 		CA2A4061296654E500DBCD69 /* NBTestingMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBTestingMetaData.h; sourceTree = "<group>"; };
 		CA55ED88296F51E0005E98A1 /* TestingSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TestingSource.bundle; sourceTree = "<group>"; };
 		CAA5E78C29F84B7B00550AA7 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		CE18469D2BCF7AE6005BBFA0 /* NBGeneratedPhoneNumberMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBGeneratedPhoneNumberMetaData.m; sourceTree = "<group>"; };
 		FD12C2681A87401B00B53856 /* NBMetadataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBMetadataHelper.h; sourceTree = "<group>"; };
 		FD12C2691A87401B00B53856 /* NBMetadataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBMetadataHelper.m; sourceTree = "<group>"; };
 		FD7A0620167715A0004BBEB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -459,6 +461,7 @@
 				FD12C2681A87401B00B53856 /* NBMetadataHelper.h */,
 				FD12C2691A87401B00B53856 /* NBMetadataHelper.m */,
 				8BB73AA71E7C9C6700B0691B /* NBGeneratedPhoneNumberMetaData.h */,
+				CE18469D2BCF7AE6005BBFA0 /* NBGeneratedPhoneNumberMetaData.m */,
 			);
 			name = Metadata;
 			sourceTree = "<group>";
@@ -772,6 +775,7 @@
 				0F28709C1FCF8F13006230BF /* NBRegExMatcher.m in Sources */,
 				34ACBBAE1B7123090064B3BD /* NBPhoneNumberUtil.m in Sources */,
 				34ACBBAB1B7122FD0064B3BD /* NBNumberFormat.m in Sources */,
+				CE18469E2BCF7AE6005BBFA0 /* NBGeneratedPhoneNumberMetaData.m in Sources */,
 				34ACBBAD1B7123020064B3BD /* NBPhoneMetaData.m in Sources */,
 				34ACBBB01B71230E0064B3BD /* NBAsYouTypeFormatter.m in Sources */,
 				944B9B062497ED79007E17B5 /* NBGeocoderMetadataHelper.m in Sources */,
