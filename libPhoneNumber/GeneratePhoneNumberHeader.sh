@@ -17,7 +17,7 @@
 
 set -eu
 
-cd "${BASH_SOURCE%/*}" || exit
+#cd "${BASH_SOURCE%/*}" || exit
 
 TEMPDIR=$(mktemp -d)
 gzip -c "../generatedJSON/PhoneNumberMetaDataForTesting.json" > "$TEMPDIR/PhoneNumberMetaDataForTesting.zip"
